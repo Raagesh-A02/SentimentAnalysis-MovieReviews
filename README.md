@@ -20,7 +20,7 @@ To build a system that can classify movie reviews into positive or negative sent
 ### 1. Clone the Repository
 
 bash
-git clone https://github.com/your-username/sentiment-analysis-movie-reviews.git
+git clone https://github.com/Raagesh-A02/SentimentAnalysis-MovieReviews.git
 cd sentiment-analysis-movie-reviews
 
 
