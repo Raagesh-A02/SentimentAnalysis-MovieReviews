@@ -15,34 +15,6 @@ To build a system that can classify movie reviews into positive or negative sent
 
 ---
 
-##  Folder Structure
-
-
-project/
-│
-├── app/
-│   └── dashboard.py               # Streamlit UI using VADER-based sentiment
-│
-├── data/
-│   ├── MovieReview-Dataset.csv   # Raw review data
-│   └── cleaned_reviews.csv       # Preprocessed reviews with labels
-│
-├── models/
-│   ├── logistic_model.pkl        # Trained Logistic Regression model
-│   └── tfidf_vectorizer.pkl      # Saved TF-IDF vectorizer
-│
-├── utils/
-│   ├── text_preprocessing.py     # Custom text cleaning functions
-│   ├── sentiment_predictor.py    # Rule-based VADER sentiment function
-│   └── __init__.py               # Module init file
-│
-├── main.py                       # Trains and saves ML model and vectorizer
-├── requirements.txt              # List of dependencies
-└── README.md                     # Project documentation
-
-
----
-
 ##  How to Run the Project
 
 ### 1. Clone the Repository
